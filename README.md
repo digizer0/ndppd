@@ -42,8 +42,10 @@ Version 0.x has been discontinued, and is being replaced by `1.0-devel` which yo
 
 4) update your repository and install g++ of the mips chip(little endian) and make command
 
+```bash
     apt-get update -y
     apt-get install -y g++-mipsel-linux-gnu make
+```
 
 5) run make
 
@@ -51,8 +53,10 @@ Version 0.x has been discontinued, and is being replaced by `1.0-devel` which yo
 
 6) move files to your edgerouter
 
+```bash
     scp ndppd xxxx@xxx.xxx.xxx.xxx/ndppd/local/sbin
     scp scripts/ndppd xxxx@xxx.xxx.xxx.xxx/config/scripts/post-config.d
     scp scripts/ndppd.initscript xxxx@xxx.xxx.xxx.xxx/ndppd/local/sbin
+```
 
 !!! check owner and execute flags of these files on your edgerouter

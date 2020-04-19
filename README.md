@@ -54,9 +54,9 @@ Version 0.x has been discontinued, and is being replaced by `1.0-devel` which yo
 6) move files to your edgerouter
 
 ```bash
-    scp ndppd xxxx@xxx.xxx.xxx.xxx/ndppd/local/sbin
-    scp scripts/ndppd xxxx@xxx.xxx.xxx.xxx/config/scripts/post-config.d
-    scp scripts/ndppd.initscript xxxx@xxx.xxx.xxx.xxx/ndppd/local/sbin
+    scp ndppd xxxx@xxx.xxx.xxx.xxx:/ndppd/local/sbin
+    scp scripts/ndppd xxxx@xxx.xxx.xxx.xxx:/config/scripts/post-config.d
+    scp scripts/ndppd.initscript xxxx@xxx.xxx.xxx.xxx:/ndppd/local/sbin
 ```
 
 !!! check owner and execute flags of these files on your edgerouter

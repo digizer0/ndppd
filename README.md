@@ -33,19 +33,24 @@ Version 0.x has been discontinued, and is being replaced by `1.0-devel` which yo
 ## how to use
 
 1) git clone to your home computer
+
     git clone https://github.com/DanielAdolfsson/ndppd.git
 
-2) run your docker with ndppd directory
+3) run your docker with ndppd directory
+
     docker run -v $PWD/ndppd:/ndppd -it --rm ubuntu
 
-3) update your repository and install g++ of the mips chip(little endian) and make command
+4) update your repository and install g++ of the mips chip(little endian) and make command
+
     apt-get update -y
     apt-get install -y g++-mipsel-linux-gnu make
 
-4) run make
+5) run make
+
     make
 
-5) move files to your edgerouter
+6) move files to your edgerouter
+
     scp ndppd xxxx@xxx.xxx.xxx.xxx/ndppd/local/sbin
     scp scripts/ndppd xxxx@xxx.xxx.xxx.xxx/config/scripts/post-config.d
     scp scripts/ndppd.initscript xxxx@xxx.xxx.xxx.xxx/ndppd/local/sbin

@@ -51,7 +51,7 @@ cd /ndppd
 make
 ```
 
-5) move files to your edgerouter
+5) copy files to your edgerouter
 
 ```bash
 scp ndppd xxxx@xxx.xxx.xxx.xxx:/ndppd/local/sbin

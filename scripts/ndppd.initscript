@@ -1,0 +1,3 @@
+#!/bin/sh
+#
+nohup /ndppd/local/sbin/ndppd -d -p /var/run/ndppd.pid

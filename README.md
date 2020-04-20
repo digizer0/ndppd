@@ -35,23 +35,23 @@ Version 0.x has been discontinued, and is being replaced by `1.0-devel` which yo
 1) git clone to your home computer
 
 ```bash
-git clone https://github.com/DanielAdolfsson/ndppd.git
+git clone https://github.com/sho7650/ndppd.git
 ```
 
-3) run your docker with ndppd directory
+2) run your docker with ndppd directory
 
 ```bash
 docker run -v $PWD/ndppd:/ndppd -it --rm sho7650/mipsel
 ```
 
-4) run make
+3) run make
 
 ```bash
 cd /ndppd
 make
 ```
 
-5) copy files to your edgerouter
+4) copy files to your edgerouter
 
 ```bash
 scp ndppd xxxx@xxx.xxx.xxx.xxx:/ndppd/local/sbin

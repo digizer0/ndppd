@@ -6,7 +6,7 @@ LDFLAGS  = -static
 endif
 
 PREFIX  = /ndppd/local
-CXX     = /usr/bin/mipsel-linux-gnu-g++
+CXX     = /usr/bin/mips-linux-gnu-g++
 GZIP    ?= /bin/gzip
 MANDIR  ?= ${DESTDIR}${PREFIX}/share/man
 SBINDIR ?= ${DESTDIR}${PREFIX}/sbin
